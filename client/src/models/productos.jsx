@@ -3,26 +3,53 @@
 export const Productos  = [
     {
         id: 1,
-        name: 'Playera',
-        img : 'https://files.catbox.moe/ipnm2v.png',
-        img2 : 'https://files.catbox.moe/p1y39e.png',
-        color: 'Celeste',
-        colorHEX: '#33DBFF'
+        name: 'Playera V',
+        tallas: ['Chica', 'Mediana', 'Grande'],
+        colores: [
+            {
+                color: 'Azul',
+                colorHEX: '#0000FF',
+                img : 'https://files.catbox.moe/pcmd9z.png',
+            },
+            {
+                color: 'Negro',
+                colorHEX: '#000000',
+                img : 'https://files.catbox.moe/zcnlna.png'
+            }
+        ]
     },
     {
         id: 2,
         name: 'Polo',
-        img : 'https://files.catbox.moe/ipnm2v.png',
-        img2 : 'https://files.catbox.moe/p1y39e.png',        
-        color: 'Azul',
-        colorHEX: '#0056FF'
+        tallas: ['Chica', 'Mediana', 'Grande'],
+        colores: [
+            {
+                color: 'Azul',
+                colorHEX: '#0000FF',
+                img : 'https://files.catbox.moe/gun4v2.png',
+            },
+            {
+                color: 'Negro',
+                colorHEX: '#000000',
+                img : 'https://files.catbox.moe/lxpju7.png'
+            }
+        ]
     },
     {
         id: 3,
         name: 'Chamarra',
-        img : 'https://files.catbox.moe/ipnm2v.png',
-        img2 : 'https://files.catbox.moe/p1y39e.png',       
-        color: 'Negro',
-        colorHEX: '#000000'
+        tallas: ['Chica', 'Mediana', 'Grande'],
+        colores: [
+            {
+                color: 'Azul',
+                colorHEX: '#0000FF',
+                img : 'https://files.catbox.moe/oh4v3x.png',
+            },
+            {
+                color: 'Negro',
+                colorHEX: '#000000',
+                img : 'https://files.catbox.moe/hw0no8.png'
+            }
+        ]
     }
 ]

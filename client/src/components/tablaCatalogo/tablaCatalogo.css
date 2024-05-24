@@ -1,3 +1,8 @@
+/* General */
+.container {
+  margin-top: 2rem;
+}
+
 /* Transición para las tarjetas */
 .card {
   transition: all 0.3s ease;
@@ -66,6 +71,10 @@
   transition: color 0.3s ease;
 }
 
+.card-text {
+  margin-top: 1rem;
+}
+
 .card-link:hover {
   color: #0056b3;
 }
@@ -81,7 +90,6 @@
   height: 40px;
   border: none;
   border-radius: 50%;
-  margin-right: 10px;
   cursor: pointer;
   transition: all 0.3s ease;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agregamos sombra */
@@ -93,6 +101,34 @@
 }
 
 .color-button:hover {
+  opacity: 0.8;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15); /* Cambiamos la sombra al pasar el ratón */
+}
+
+/* Estilos para los botones de tamaño */
+.size-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.size-button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agregamos sombra */
+}
+
+.size-button.active {
+  background-color: #007bff;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Aumentamos la sombra cuando está activo */
+}
+
+.size-button:hover {
   opacity: 0.8;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15); /* Cambiamos la sombra al pasar el ratón */
 }
